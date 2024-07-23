@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>MUHAMMAD RIZKI KP</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="halaman-home">
+            <h1>Welcome to My Personal Website</h1>
+            <p>Hi, I'm Muhammad Rizki KP. I'm a Fullstack Developer
+                passionate about Website .</p>
+            <a href="#about" class="btn">Let's Discover About Me</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="konten">
+            <div class="photo">
+                <img src="foto.jpg" alt="Rizki">
+            </div>
+            <div class="info"> <!--about-bio-->
+                <p>Hello I'm Rizki. Right now i study computer science. </p>
+                <p> Feel free to see my portofolios. If you are interested you can contact me below </p>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portofolio</h2>
+        <div class="portfolio-item">
+            <h3>LINKTREE</h3>
+            <img src="/linktree.png" alt="linktree" width="500px" height="500px">
+            <p>If you want more know about my project you can click link <a
+                    href="https://muhammmadrizki.github.io/Linktree_Muhammad_Rizki_KP/" target="_blank">Linktree</a></p>
+
+        </div>
+        <div class="portfolio-item">
+            <h3>LANDING PAGE</h3>
+            <img src="/landing-page.png" alt="landing-page-palembang" width="600px">
+            <p>Landing Page Wisata menjelaskan objek wisata yang ada di kota Palembang</p>
+        </div>
+        <!--tambahkan dibawah jika ada portofolio lagi-->
+    </section>
+
+    <section id="contact" class="contak">
+        <h2>Contact Me</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 MUHAMMAD RIZKI KURNIA PUTRA</p>
+    </footer>
+</body>
+
+</html>
